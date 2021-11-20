@@ -1,0 +1,285 @@
+body
+{ 
+      margin:0;
+	  padding:0;
+	  font-family: Century Gothic;
+	  background-color: rgb(161, 193, 206)  ;
+	  background-repeat: no-repeat;
+}
+
+header
+{
+     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("bank.jpg");
+	 height: 100vh;
+	 background-size: cover;
+	 background-position: center;
+}	 
+
+ul
+{
+	float:right;
+	list-style-type: none;
+	margin-top:25px;
+}
+
+ul li
+{
+    display: inline-block;
+	
+}
+	
+ul li a
+{
+	text-decoration: none;
+	color:aqua;
+	padding:5px 20px;
+	border: 1px solid transparent;
+	transition:0.5s ease;
+	border-radius: 100px;
+}	
+
+ul li a:hover
+{
+	box-shadow: 05px 50px 0 aqua inset, 0 5px 50px 0 aqua,
+	            05px 50px 0 aqua inset, 0 5px 50px 0 aqua;
+	background-color:aqua;
+	color:black;
+}
+
+ul li.active a
+{
+	background-color:aqua;
+	color:black;
+	
+}
+.logo img
+{
+	float: left;
+	width:150px;
+	height:auto;
+}
+
+.main
+{
+	max-width: 1200px;
+	margin:auto;
+	
+}	
+
+.title
+{
+	position:absolute;
+	top:40%;
+	left:30%;
+	transform: translate(-10%,-10%);
+}
+
+.title h1
+{
+	color:white;
+	font-size:50px;
+}	
+	
+.button
+{
+	position:absolute;
+	top:70%;
+	left:35%;
+	transform: translate(-10%,-10%);
+	
+}	
+
+.btn
+{
+	border: 4px solid white;
+	padding: 15px 50px;
+	color: white;
+	text-decoration: none;
+	transition: 0.6s ease;
+	border-radius: 100px
+}
+
+.btn:hover
+{
+	box-shadow: 05px 50px 0 rgb(199, 206, 218) inset, 0 5px 50px 0 rgb(213, 210, 221),
+	            05px 50px 0 rgb(198, 195, 207) inset, 0 5px 50px 0 rgb(214, 212, 219);  
+	background-color:#fff;
+	color:#000;
+	
+}
+*{
+	box-sizing: all;
+  }
+  
+ 
+  
+  
+  #main{
+	width: 100%;
+	height: 20vh;
+	position: relative;
+  }
+  
+  
+  .fun{
+  
+	color:#242124;
+	font-family: 'Arial, Helvetica';
+	font-size: 40px;
+	
+  }
+  
+  .nav{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	position: static;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 100%;
+	background-color: #1B1B1B ;
+	box-shadow: 5px 10px 30px rgba(0,0,0,0.2);
+	z-index: 1;
+	margin-right: 60%;
+  }
+  
+  
+  .logo img{
+	height: 100px;
+  }
+  
+  .menu{
+	list-style: none;
+	display: contents;
+	margin-left: 60%;
+  }
+  
+  .menu li a{
+	height: 40px;
+	line-height: 43px;
+	margin: 3px;
+	padding: 0px 22px;
+	display: flex;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	color: white;
+  
+  }
+  
+  a{
+	text-decoration: none;
+  }
+  
+  .social{
+	list-style: none;
+	display: flex;
+	margin-left: 100%;
+	font-weight: bold;
+  }
+  
+  
+  .name{
+	font-weight: lighter;
+  }
+  
+  
+  .developer{
+	margin-left: 5%;
+	text-align: center;
+  }
+  
+  .bottom{
+	list-style: none;
+	display: flex;
+	height: 40px;
+	margin-top: 5%;
+	margin-bottom: 1rem;
+	font-size: 0.2em;
+	text-transform: uppercase;
+	font-weight: 100;
+	letter-spacing: 1px;
+  }
+  
+  .contact{
+	text-align: center!important;
+  }
+  
+  .image img{
+  
+	width: 300px;
+	height: 500px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	float: right; 
+	padding-right: 30px;   
+   
+  }
+  
+  .main-content{
+	display: flex;
+	justify-content: space-around;
+  }
+  
+  
+  .heading{
+	color:#242124 ;
+	font-family: 'Calibary,Arial, Helvetica';
+	font-style: inherit;
+	margin-left: 10%;
+	font-size: 50px;
+  }
+  
+  .line{
+	color:#242124;
+	font-family: 'Calibary,Arial, Helvetica';
+	font-size: 40px;
+	margin-left: 8%;
+  }
+  
+  
+  .line2{
+	color:#242124;
+	display: flex;
+	font-family: 'Calibary,Arial, Helvetica',cursive;
+	font-size: 30px;
+  }
+  
+  
+  .start{
+	font-family: 'Reggae One';
+	background-color: white;
+	color:#000;
+	font-family: Century Gothic;
+	padding: 15px 45px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border: 2px solid indigo;
+	border-radius: 5px;
+	box-shadow: 0 0 20px rgba(0,0,0,0.2);
+	 margin-left: 10%;
+  }
+  
+  .start:hover{
+	
+	background-color:aqua;
+	color: white;
+	border: 2px solid black;
+	cursor: pointer;
+  
+  }
+  
+  .menu li a:hover{
+	background-color: rgba(244, 208, 63, 1);
+	color:  #1A2421;
+	font-weight: bolder;
+	cursor: pointer;
+	
+  }
+  
+  
+  
+  
